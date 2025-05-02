@@ -2,10 +2,10 @@
 setlocal
 
 REM Verificar se o JavaFX está instalado
-if not exist "C:\Users\Pichau\Downloads\javafx-sdk-21.0.7\lib" (
+if not exist "C:\Users\Kaue\Downloads\javafx-sdk-21.0.7\lib" (
     echo JavaFX SDK não encontrado!
     echo Por favor, baixe o JavaFX SDK 21.0.7 de https://gluonhq.com/products/javafx/
-    echo E extraia para C:\Users\Pichau\Downloads\javafx-sdk-21.0.7
+    echo E extraia para C:\Users\Kaue\Downloads\javafx-sdk-21.0.7
     pause
     exit /b 1
 )
@@ -13,7 +13,7 @@ if not exist "C:\Users\Pichau\Downloads\javafx-sdk-21.0.7\lib" (
 REM Definir variáveis
 set "JAVA_HOME=C:\Program Files\Java\jdk-21"
 set "PATH=%JAVA_HOME%\bin;%PATH%"
-set "JAVAFX_HOME=C:\Users\Pichau\Downloads\javafx-sdk-21.0.7"
+set "JAVAFX_HOME=C:\Users\Kaue\Downloads\javafx-sdk-21.0.7"
 
 REM Verificar se o Java está instalado
 where java >nul 2>nul
